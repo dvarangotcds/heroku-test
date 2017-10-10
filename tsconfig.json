@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "strict": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "files": [
+    "index.ts"
+  ],
+  "include": [
+    "lib/**/*",
+    "bin/**/*"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}
