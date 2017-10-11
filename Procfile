@@ -1,1 +1,1 @@
-web: yarn hstart
+web: npm hstart
