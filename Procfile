@@ -1,1 +1,1 @@
-web: yarn build-heroku
+web: yarn hstart
