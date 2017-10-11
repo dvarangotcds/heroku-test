@@ -43,7 +43,6 @@
   "engineStrict": true,
   "dependencies": {
     "@mcrowe/redis-promise": "^0.0.1",
-    "@sendgrid/mail": "^6.1.4",
     "apn": "^2.1.5",
     "aws-sdk": "^2.82.0",
     "bcrypt": "^1.0.2",
