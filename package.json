@@ -25,7 +25,8 @@
     "copy-package": "cp package.json dist/package.json",
     "copy-ebextensions": "cp -R .ebextensions dist/.ebextensions",
     "zip": "cd dist && zip bundle.zip -r * .[^.]*",
-    "build": "tsc || true && npm run copy-assets && npm run copy-package && npm run copy-ebextensions && npm run copy-p8 && npm run zip"
+    "build": "tsc || true && npm run copy-assets && npm run copy-package && npm run copy-ebextensions && npm run copy-p8 && npm run zip",
+    "build-heroku": "tsc || true && npm run copy-assets && npm run copy-package && npm run copy-ebextensions && npm run copy-p8 && npm run /dist/index.js"
   },
   "lint-staged": {
     "{lib,bin}/**/*.ts": [
